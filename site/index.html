@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Drift Realista RC | Download APK</title>
+  <meta name="description" content="Site de download do APK Drift Realista RC, uma simulação de drift com carros reais e modo RC drift na rua.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">APK Android • Drift • RC na rua</p>
+        <h1>Drift Realista RC</h1>
+        <p class="lead">Baixe o APK da simulação de drift com opções de carro, física de derrapagem, marcas de pneu e modo RC drift para correr na rua.</p>
+        <div class="actions">
+          <a class="button primary" id="downloadButton" href="downloads/drift-realista-rc.apk" download>Baixar APK</a>
+          <a class="button secondary" href="#instrucoes">Como instalar</a>
+        </div>
+        <p class="download-note" id="downloadNote">Coloque o APK gerado em <code>site/downloads/drift-realista-rc.apk</code> para ativar o download hospedado.</p>
+      </div>
+      <div class="phone-preview" aria-label="Prévia visual do jogo">
+        <div class="screen">
+          <div class="street-line"></div>
+          <div class="skid skid-one"></div>
+          <div class="skid skid-two"></div>
+          <div class="car-body"><span></span></div>
+          <div class="hud">RC drift na rua • 86 km/h</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" aria-label="Recursos do APK">
+      <article>
+        <strong>3 carros</strong>
+        <span>JDM Turbo, Muscle V8 e RC Drift Rua.</span>
+      </article>
+      <article>
+        <strong>Drift jogável</strong>
+        <span>Acelere, freie, esterçe e controle derrapagens.</span>
+      </article>
+      <article>
+        <strong>Offline</strong>
+        <span>Simulação local em Android, sem internet obrigatória.</span>
+      </article>
+    </section>
+
+    <section class="install" id="instrucoes">
+      <h2>Como instalar o APK</h2>
+      <ol>
+        <li>Gere o APK com <code>gradle :app:assembleDebug</code> em uma máquina com Android SDK.</li>
+        <li>Copie <code>app/build/outputs/apk/debug/app-debug.apk</code> para <code>site/downloads/drift-realista-rc.apk</code>.</li>
+        <li>Abra este site e toque em <strong>Baixar APK</strong>.</li>
+        <li>No Android, permita instalação de apps de fontes desconhecidas se necessário.</li>
+      </ol>
+    </section>
+  </main>
+  <script src="assets/download.js"></script>
+</body>
+</html>
